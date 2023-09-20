@@ -12,7 +12,7 @@ int main(){
     cout << "Sou o "<< Character_Name << endl; 
     cout << "e tenho "<< Character_Age << " anos :)" << endl;
 
-    Character_Name = "Joana";
+    Character_Name = "Manuela";
     Character_Age = 18;
     cout << "Já a "<< Character_Name << endl; 
     cout << "tem só "<< Character_Age << " anos :)" << endl;
