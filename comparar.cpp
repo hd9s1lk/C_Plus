@@ -17,14 +17,13 @@ int comp(int a, int b, int c){
         maior = maior;
     }
 
-    cout << "O maior numero e: " << maior;
-    return 0;
+    return maior;
 }
 
 
 int main(){
 
-    comp(2,3,4);
+    cout << "O maior numero e: " << comp(2,3,4) << endl;
 
     system("pause");
     return 0;
