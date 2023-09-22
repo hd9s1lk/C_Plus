@@ -2,15 +2,16 @@
 
 using namespace std;
 
-void soma(int a, int b){
-    cout << a+b << endl;
+double soma(double a, double b){
+    cout << a+b;
 
+    return 0;
 }
 
 int main(){
 
-    int a;
-    int b;
+    double a;
+    double b;
 
     cout << "Insira o primeiro numero: " << endl;
     cin >> a;
