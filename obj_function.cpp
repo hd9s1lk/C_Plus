@@ -19,7 +19,7 @@ class Student {
         Student(string anome, string auni, float amedia, string amestrado) {
             nome = anome;
             uni = auni;
-            media = amedia;
+            setMedia(amedia);
             mestrado = amestrado;
         }
 
@@ -30,6 +30,18 @@ class Student {
             return false;
         }
 
+        float setMedia(float amedia) {  //criar regras na media e alteracao da mesma
+            if (amedia >= 0 && amedia <=20) {
+                media = amedia;
+            } else {
+                media = 0;
+            }
+            return 0;
+        }
+        float getMedia() {
+            return media;
+        }
+    
 };
 
 
@@ -37,6 +49,11 @@ int main(){
 
     Student student1("Henrique","UTAD", 13, "Universidade de Barcelona");
     Student student2("Marcozki", "UTAD", 10, "Nao esta inserido");
+
+    student1.setMedia(15);
+
+    cout << student1.getMedia() << endl;
+
 
     cout << student1.master() << endl;
     cout << student2.master() << endl;
