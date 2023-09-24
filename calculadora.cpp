@@ -3,31 +3,11 @@
 
 using namespace std;
 
-float soma(float a, float b){
-    cout << "O valor final e de: " << a+b << endl;
-    return 0;
-}
-
-float subtracao(float a, float b){
-    cout << "O valor final e de: " << a-b << endl;
-    return 0;
-}
-
-float divisao(float a, float b){
-    cout << "O valor final e de: " << a/b << endl;
-    return 0;
-}
-
-float multiplicacao(float a, float b){
-    cout << "O valor final e de: " << a*b << endl;
-    return 0;
-}
-
-float expoente(float a, float b){
-    cout << "O valor final e de: " << pow(a,b) << endl;
-    return 0;
-}
-
+float soma(float a, float b);
+float subtracao(float a, float b);
+float divisao(float a, float b);
+float multiplicacao(float a, float b);
+float expoente(float a, float b);
 
 int main(){
     float a,b;
@@ -56,5 +36,30 @@ int main(){
     }
 
     system("pause");
+    return 0;
+}
+
+float soma(float a, float b){
+    cout << "O valor final e de: " << a+b << endl;
+    return 0;
+}
+
+float subtracao(float a, float b){
+    cout << "O valor final e de: " << a-b << endl;
+    return 0;
+}
+
+float divisao(float a, float b){
+    cout << "O valor final e de: " << a/b << endl;
+    return 0;
+}
+
+float multiplicacao(float a, float b){
+    cout << "O valor final e de: " << a*b << endl;
+    return 0;
+}
+
+float expoente(float a, float b){
+    cout << "O valor final e de: " << pow(a,b) << endl;
     return 0;
 }
